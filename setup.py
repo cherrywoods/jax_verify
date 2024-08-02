@@ -45,7 +45,7 @@ setup(
     # Contained modules and scripts.
     packages=find_namespace_packages(exclude=['*_test.py']),
     install_requires=_parse_requirements('requirements.txt'),
-    requires_python='>=3.6',
+    requires_python='>=3.9',
     platforms=['any'],
     license='Apache 2.0',
     test_suite='setup.test_suite',
